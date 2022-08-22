@@ -1,0 +1,488 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    max-width: 500px;
+}
+
+
+.fish{
+    width:1200px;
+    height:1000px;;
+    margin-left:20px;
+    margin-top:-3.5px;
+    background-color: pink;
+
+}
+.src{
+    border: 6px solid black;
+    border-radius: square;
+    margin-left: 80px;
+}
+.src img{
+    
+    width:250px;
+    height: 80px;
+    
+    margin-left: 25px;
+}
+.eat{
+    border: 6px solid black;
+    border-radius:square;
+    margin-left: 80px;
+}
+.eat img{
+    width:200px;
+    height:120px;
+    
+    margin-left: 120px;
+}
+
+
+section{
+    width:97.7vw;
+    height:4000px;
+    background-color: white;
+}
+#home{
+    width:97.7vw;
+    height:800px;
+    background-color:whitesmoke;
+
+}
+.owl img{
+    /* background-image: url('https://media.istockphoto.com/photos/fourth-of-july-american-food-above-view-table-scene-on-white-wood-picture-id1317295804?s=612x612'); */
+    width: 65px;
+    height:50px;
+    margin-left:30px;
+    display: inline-block;
+    vertical-align: center;
+    margin-top: 2px;
+    
+}
+
+nav{
+    width:97.9vw;
+    height:15vh;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 2.5px;
+    align-items: center;  
+    /* border: 3px solid black; */
+    /* border-radius: 15px; */
+    font-family: 'Montserrat', sans-serif;
+    /* background-color:rgb(121,37,65);
+     */
+     /* background-color:black; */
+    flex-direction:row;
+    position: fixed;
+    z-index: 1;
+    background-color:rgb(143, 63, 63);
+}
+.tags{
+    display:flex;
+    justify-content:center;
+    margin-top:2.1vh;
+    margin-left:50px;
+}
+
+
+
+ul li{
+    
+        list-style: none;
+        margin: 20px;
+       font-display:left;
+        border-radius: 20px;
+    
+}
+ul li a{
+    width:100%;
+   
+    padding: 1px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    color:white;
+    letter-spacing: 0.1rem;
+    
+}
+ul li a:hover{
+    background-color: blanchedalmond;
+    color:black;
+    border-radius: 10px;
+}
+.play{
+    /* background-color: rgb(82, 77, 77); */
+    height: 15vh;
+    margin-left: 25%;
+    width:30%;
+    border-radius: 12%;
+}
+nav p{
+    margin-left:30%;
+    font-size: 45px;
+    color: rgb(230, 155, 18);
+    
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    font-family: "Times New Roman", "serif";
+    line-height: 32px;
+    text-transform: uppercase;
+     margin-top: 3.5%;
+     padding: 3px;
+     
+     /* height: 0.5%; */
+}
+nav p span{
+    margin-left:30%;
+    font-size: 22px;
+    color: lemonchiffon;
+    font-weight: 200;
+    letter-spacing: 0.12rem;
+    font-family: "Times New Roman", "serif";
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-top: 5.5%;
+}
+#rat{
+    margin-top:0px;
+    border: 3px solid black;
+    border-radius: 10px;
+    height:250vh;
+    width:97.7vw;
+    align-items: center;
+    margin-left:2px ;
+    background-color:rgb(187, 127, 147);
+    max-width: 1350px;
+}
+
+.background{
+    margin-top:45px;
+    width:65%;
+    height:80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* background-image: url('https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'); */
+   background-size: 100% 100%;
+    
+    transform: translate(-50%,-50%);
+    box-shadow:1px 2px 10px 10px black ;
+    animation: slider 10s infinite  ease-in;
+    display: block;
+}
+
+@keyframes slider{
+    0%{
+        background-image: url('http://www.parkviewheights.in/images/gallery/large/gallery-parkview-heights-07.jpg');
+    }
+    16%{
+        background-image: url('https://vinepair.com/wp-content/uploads/2022/01/50mostpopularcocktails2022_internal_piscopunch.jpg');
+    }
+    32%{
+        background-image: url('http://www.parkviewheights.in/images/gallery/large/gallery-parkview-heights-13.jpg');
+    }
+    48%{
+        background-image: url('https://www.cafecoffeeday.com/sites/default/files/desktop-new%20menu-cafe-coffee-day_1.jpg');
+    }
+    /* 48%{
+        background-image: url('https://i.pinimg.com/736x/67/cd/c1/67cdc1683f91f9916de003ca3c94ef57.jpg');
+    } */
+    64%{
+        background-image: url('http://www.parkviewheights.in/images/gallery/large/gallery-parkview-heights-03.jpg');
+    }
+    
+    80%{
+        background-image: url('https://cdn.tarladalal.com/members/9306/big/big_sizzling_brownie-15603.jpg');
+    }
+
+     100%{
+        background-image: url('http://www.parkviewheights.in/images/gallery/large/gallery-parkview-heights-12.jpg');
+    }
+    120%{
+        background-image: url('https://vinepair.com/wp-content/uploads/2022/01/50mostpopularcocktails2022_internal_negroni.jpg');
+    }
+    140%{
+        background-image: url('http://www.parkviewheights.in/images/gallery/large/gallery-parkview-heights-06.jpg');
+    }
+
+}
+
+#About {
+    margin-top:-30.5%;
+    width:97.7vw;
+    height:750px;
+    background-color:whitesmoke
+}
+.pas{
+    margin-top:1%;
+     padding-top: 120px;
+}
+.pas p{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 60%;
+    margin-top: 5%;
+    font-weight: 100;
+    letter-spacing: 0.025rem;
+    width:25%;
+}
+.pas p span{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    width: 4%;
+    font-weight: 100;
+}
+.cat{
+    margin-top:-26.5%;
+    
+}
+.cat img{
+    width:43.5%;
+    height: 10%;
+   margin-left:7%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 2px 10px 10px white;
+    margin-top: 0%;
+    
+}
+#Menu{
+    margin-top: 1%;
+    width:97.8vw;
+    height:1000px;
+    background-color:rgb(220, 235, 140);
+    /* background-image: url("https://cdn.tarladalal.com/members/9306/big/big_sizzling_brownie-15603.jpg"); */
+   
+} 
+.menui{
+    display:inline-block;
+   margin-top: 8%;
+  align-items: center;
+   padding:50px;
+   /* background-color: rgb(24, 24, 163); */
+  
+}
+
+.nonveg{
+    margin-top: 2%;
+    
+}
+.nonveg img{
+    border: 4px solid black;
+}
+.nonveg a{
+   margin-top: 110.5%;
+    margin-left: -36%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    align-items: center;
+   background-color: rgb(39, 224, 131);
+    width: 105px;
+    height: 30px;
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    
+}
+.vegeterian {
+margin-top: 5%;
+margin-left: 99.5%;
+}
+.vegeterian img{
+    border: 4px solid black;
+}
+.vegeterian a{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    margin-top: -2%;
+    margin-left: 9.5%;
+    background-color: rgb(39, 224, 131);
+    font-size: 20px;
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+.Chinese{
+    margin-left: 200%;
+    margin-top: -130%;
+    border-radius: 50%;
+}
+.Chinese img{
+    border: 4px solid black;
+}
+.Chinese a{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    margin-top: -2%;
+    margin-left: 9.5%;
+    background-color: rgb(39, 224, 131);
+    font-size: 20px;
+    width: 105px;
+    height: 30px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+
+.drinks img{
+    margin-top: 50%;
+    width: 75%;
+    margin-left: 5%;
+    border: 4px solid black;
+    
+}
+.drinks a{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    margin-top:35.2%;
+    margin-left: -15.5%;
+    background-color:rgb(39, 224, 131);
+    font-size: 20px;
+    width: 105px;
+    height: 30px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    
+}
+.Bakery img{
+    margin-left:230.5%;
+    margin-top: -75.5%;
+    width: 75%;
+    height: 25%;
+    border: 4px solid black;
+}
+.Bakery a{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    margin-top: -2%;
+    margin-left: 77.5%;
+    background-color: rgb(39, 224, 131);
+    font-size: 20px;
+    width: 105px;
+    height: 30px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+#ContactUs{
+    margin-top:10%;
+    padding: 45px;
+    background-color: lightblue;
+    height: 931px;
+    background-image: url("https://media.istockphoto.com/photos/contact-us-concept-white-contact-us-symbols-printed-blue-speech-on-picture-id1303750406?b=1&k=20&m=1303750406&s=170667a&w=0&h=E4W-TvKwfpzmaLaAgmTurPAgNWtSMtt6ausyiJhz7mQ=");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact{
+    margin-top: 5%;
+    padding-top: 50px;
+    margin-left: 30%;
+}
+#Name{
+    width: 36%;
+    margin-left: 2%;
+    text-align: left;
+    font-family:Poppins, sans-serif ;
+}
+#email{
+    width: 36%;
+    margin-left: 5.5%;
+    text-align: left;
+    margin-top: 2%;
+    font-family:Poppins, sans-serif ;
+}
+#mobile{
+    width: 36%;
+    margin-left: 4.8%;
+    text-align: left;
+    margin-top: 2%;
+    font-family:Poppins, sans-serif ;
+}
+#subject{
+    width: 50%;
+    margin-left: 0%;
+    text-align: left;
+    margin-top: 1%;
+    font-family:Poppins, sans-serif ;
+}
+#query{
+    width: 50%;
+    margin-left: 0%;
+    text-align: left;
+    margin-top: 1%;
+    font-family:Poppins, sans-serif ;
+}
+label{
+    font-size: 18.5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type=submit]{
+    padding: 8px;
+    background-color: #04AA6D;
+    color: white;
+    margin-top: 18px;
+    margin-left: 180px;
+}
+.location{
+    margin-top: 5.5%;
+    padding: 5px;
+}
+.location i{
+    margin-left: 5%;
+    font-size: 32px;
+    color: gray;
+    border: 2px solid gray;
+    padding: 10px;
+    margin-top: -2%;
+    
+}
+.location h3{
+   margin-left: 10%; 
+   margin-top: -5%;
+   font-family: 'Times New Roman', Times, serif;
+}
+.phone{
+    margin-top: 1%;
+}
+.phone i{
+    margin-left: 5%;
+    font-size: 32px;
+    color: gray;
+    border: 2px solid gray;
+    padding: 10px;
+    margin-top: 2%;
+}
+.phone h4{
+    margin-left: 10%; 
+   margin-top: -5%;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+}
+.reserv{
+    margin-top: 1%;
+    background-color: black;
+    height: 10%;
+    margin-left: -3.5%;
+    width: 107%;
+    
+}
+.reserv h3{
+color: white;
+font-family: Poppins, sans-serif ;
+text-align: center;
+align-items: center;
+font-size: 15px;
+
+}
